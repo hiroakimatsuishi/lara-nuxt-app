@@ -1,0 +1,9 @@
+[Thu Nov 26 15:15:32.118645 2020] [proxy:error] [pid 8:tid 139862763293472] [client 172.19.0.1:47540] AH00898: DNS lookup failure for: ui returned by /
+[Thu Nov 26 15:20:35.361288 2020] [proxy:error] [pid 9:tid 140405689932576] [client 172.20.0.1:46702] AH00898: DNS lookup failure for: ui returned by /
+[Thu Nov 26 15:20:35.403924 2020] [proxy:error] [pid 9:tid 140405689789216] [client 172.20.0.1:46702] AH00898: DNS lookup failure for: ui returned by /favicon.ico, referer: http://localhost:8080/
+[Thu Nov 26 15:28:35.056349 2020] [proxy_http:error] [pid 9:tid 139944405232416] (70007)The timeout specified has expired: [client 172.26.0.1:51122] AH01110: error reading response, referer: http://localhost:8080/
+[Thu Nov 26 15:29:38.002901 2020] [proxy_http:error] [pid 9:tid 139944404945696] (70007)The timeout specified has expired: [client 172.26.0.1:51142] AH01110: error reading response, referer: http://localhost:8080/
+[Thu Nov 26 15:30:40.996521 2020] [proxy_http:error] [pid 9:tid 139944404658976] (70007)The timeout specified has expired: [client 172.26.0.1:51148] AH01110: error reading response, referer: http://localhost:8080/
+[Thu Nov 26 15:31:44.300355 2020] [proxy_http:error] [pid 92:tid 139944405801760] (70007)The timeout specified has expired: [client 172.26.0.1:51154] AH01110: error reading response, referer: http://localhost:8080/
+[Thu Nov 26 15:32:47.249628 2020] [proxy:error] [pid 11:tid 140614369037088] (111)Connection refused: AH00957: HTTP: attempt to connect to 172.27.0.2:3000 (ui) failed
+[Thu Nov 26 15:32:47.250832 2020] [proxy_http:error] [pid 11:tid 140614369037088] [client 172.27.0.1:48930] AH01114: HTTP: failed to make connection to backend: ui, referer: http://localhost:8080/
